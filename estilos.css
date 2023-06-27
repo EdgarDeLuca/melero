@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'fuente-principal';
+    src: url('/tipografias/PenumbraSansStd-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'fuente-principal-semibold';
+    src: url('/tipografias/PenumbraSansStd-Semibold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'fuente-principal-bold';
+    src: url('/tipografias/PenumbraSansStd-Bold.otf') format('opentype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'fuente-principal';
+}
+
+body{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#logo{
+   background-image: url(imagenes/logo.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 0px;
+   width: 220px;
+   height: 80px;
+   margin: 10px;
+   float: left;
+}
+
+nav{
+    width: 1080px;
+    height: 100px;
+    background-color: #ffac00;
+}
+nav ul{
+    width: 840px;
+    float: left;
+}
+nav ul li {
+    list-style: none;
+    width: 100px;
+    margin: 0px 50px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 120px;
+    color: white;
+    font-family: 'fuente-principal-semibold';
+}
+nav ul li a:hover{
+    color: #f1e69f;
+}
+
+.botellas-banner{
+    width: 100%;
+    height: 720px;
+    background-image: url(imagenes/botellaspaginaprincipal.jpg);   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.banner-texto-principal{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+}
+
+.banner-texto-principal li{
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 600px;
+    margin: 50px;
+    color: white;
+    border: 1px solid white;
+    line-height: 40px;
+    position: relative;
+    top: 150px;
+    left: 210px;
+}
+
+.banner-texto-principal li h2{
+    font-family: 'fuente-principal-bold';
+}
+
+.subtitle{
+    height: 50px;
+}
+
+.subtitle p{
+    font-family: 'fuente-principal-semibold';
+}
+#contacto{
+    background-color: black;
+}
+
+#contacto ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.direccion{
+    color: white;
+    padding: 50px;
+}
+
+.direccion li iframe{
+    margin-top: 15px;
+}
+
+.redes{
+    float: right;
+    margin: 50px 150px 0px 0px;
+}
+
+.redes li ul{
+ width: 300px;
+ margin: 10px;
+}
+
+.icons li img {
+    float: left;
+} 
+.icons li a {
+    color: white;
+    display: block;
+    margin: 30px 0px 0px 100px;
+} 
+
+footer{
+    height: 100px;
+    background-color: #ffac00;
+    text-align: center;
+    line-height: 70px;
+}
